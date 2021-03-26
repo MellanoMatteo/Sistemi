@@ -7,15 +7,12 @@ def generaPassword(lenght):
     #creo la variabile di nome password
     password = ''
     #per tutta la lunghezza desiderata
-    for i in range(lenght):
+    for _ in range(lenght):
         #estraggo un numero a sorte da 0 a 94
-        valRandom = random.randint(0,94)
+        valRandom = random.randint(0,61)
         password += string.printable[valRandom]
-        #la printable è una stringa di tutti i caratteri presenti. sono 100, ma escludo gli ultimi 6 perchè sono caratteri formati da coppie di caratteri (es \n)
+        #la printable è una stringa di tutti i caratteri presenti. sono 100, ma escludo gli ultimi 6 perchè la stringa deve essere alfanumerica
     return password
-
-
-
 
 def main():
     #input della difficoltà della password

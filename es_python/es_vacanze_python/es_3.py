@@ -24,9 +24,8 @@ def main():
     #chiedo quanti valori si devono calcolare della serie
     limite = int(input("inserire quanti numeri si vogliono in output"))
     #inizializzo i valori
-    ultimoVal = 0
+    ultimoVal = cont = 0
     penultimoVal = 1
-    cont = 0
     #richiamo per la prima volta la funzione 
     serieFibonacci(limite, ultimoVal, penultimoVal, cont)
 

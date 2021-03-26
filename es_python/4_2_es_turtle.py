@@ -1,8 +1,8 @@
-from turtle import *
+from turtle import * #importo tutti i file da turtle1
 
-pen = Turtle()
+pen = Turtle()      #istanzio un oggetto di tipo Turtle con nome pen
 # bordo = Turtle()
-window = Screen()
+window = Screen()   #istanzio un oggetto di tipo Screen con nome window
 
 lung = 50
 
